@@ -9,7 +9,7 @@ import ConfirmModal from "./Components/ConfirmModal/ConfirmModal";
 import AddTaskModal from "./Components/AddTaskModal/AddTaskModal";
 import Loader from "./Components/Loader/Loader";
 
-const API_URL = "http://localhost:8001";
+const API_URL = "https://task-manager-basic-backend-1.onrender.com/https://task-manager-basic-backend-1.onrender.com/";
 
 const App = () => {
   const [tasks, setTasks] = useState([]);
